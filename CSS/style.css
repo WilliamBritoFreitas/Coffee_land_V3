@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+:root {
+  --font-baloo: "Baloo 2", sans-serif;
+}
