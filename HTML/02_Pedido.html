@@ -50,20 +50,55 @@
     <main>
         <div data-painel-grid class="py-8 px-40">
             <div data-box_endereco>
-                <p>complete seu pedido</p>
-                <div data-form>
-                    <div data-cabeca_form class="flex">
-                        <img src="../Assets/Graficos/icones/map-pin-line-regular.svg" alt="">
-                        <div>
-                            <p class="mt-4 font-[roboto] font-normal text-[20px]">Endereço de Entrega</p>
-                            <span>Informe o endereço onde deseja receber seu pedido</span>
+                <p class="font-['Baloo_2'] text-lg font-bold mb-4">Complete seu pedido</p>
+                <div data-form class="bg-[#F3F2F2] p-10">
+                    <div data-cabeca_form class="flex  items-start">
+                        <!-- <img src="../Assets/Graficos/icones/map-pin-line-regular.svg" alt=""> -->
+                        <div data_pin_mapa="pin_mask" class="w-6 h-6 bg-[#C47F17]"
+                            style="mask: url('../Assets/Graficos/icones/map-pin-line-regular.svg') no-repeat center / contain; -webkit-mask: url(&quot;../Assets/Graficos/icones/map-pin-line-regular.svg&quot;) no-repeat center / contain">
                         </div>
-                     
-
+                        <div data-Endereco de Entrega>
+                            <p class="font-[roboto] font-normal text-[#403937] text-[16px] mb-0.5">Endereço de Entrega
+                            </p>
+                            <span class="mt-4 font-[roboto] font-normal text-[#403937] text-[14px]">Informe o endereço
+                                onde deseja receber seu pedido</span>
+                        </div>
                     </div>
-                    
+                    <form action="#" class="mt-8 font-[Roboto] text-[14px]">
+                        <div data-grid_fomulario class="grid grid-cols-1 md:grid-cols-6 gap-4">
+                            <div class="bg-[#E6E5E5] md:col-span-2">
+                                <input type="text" placeholder="CEP"
+                                    class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                            </div>
+                            <div class="bg-[#E6E5E5] md:col-span-6">
+                                <input type="text" placeholder="Rua"
+                                    class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                            </div>
+                                <div class="bg-[#E6E5E5] md:col-span-2">
+                                    <input type="text" placeholder="Número" class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                                </div>
+                                <div class="bg-[#E6E5E5] md:col-span-4">
+                                    <input type="text" placeholder="Complemento" class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                                </div>
+
+                                <div class="bg-[#E6E5E5] md:col-span-2">
+                                    <input type="text" placeholder="Bairro" class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                                </div>
+                                <div class="bg-[#E6E5E5] md:col-span-3">
+                                    <input type="text" placeholder="Cidade" class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                                </div>
+                                <div class="bg-[#E6E5E5] md:col-span-1">
+                                    <input type="text" placeholder="UF" class="w-full border outline-none p-3 border-[#E6E5E5] rounded-md">
+                                </div>
+
+
+                        </div>
+
+
+                    </form>
+
                 </div>
-        </div>
+            </div>
 
         </div>
 
